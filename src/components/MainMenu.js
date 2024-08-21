@@ -9,12 +9,22 @@ const Menu = styled.nav`
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  transition: height 0.3s ease, opacity 0.3s ease;
+ overflow: hidden;
+
+
+  &.open {
+    height: 17rem; /* Ajusta la altura según el contenido */
+    opacity: 1;
+  }
+
 
   a, button {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 10px;
     background-color: pinkseashell;
+    border-radius: 30px;
+
     color: slategray;
     transition: background-color 0.3s;
 
@@ -27,14 +37,29 @@ const Menu = styled.nav`
   @media (max-width: 768px) {
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 10rem;
     left: 0;
-    width: 100%;
-    background-color: pinkseashell;
+    width: 50vw; /* Ocupa el 50% del ancho de la pantalla */
+    background-color: white;
     z-index: 1;
+    border-radius: 30px; /* Agrega el border-radius para el menú en móvil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para más estilo */
+    
 
     &.closed {
-      display: none;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+    }
+
+
+    @media (max-width: 480px){
+      flex-direction: column;
+      position: absolute;
+      top: 10rem;
+      left: 0;
+    width: 50vw; 
+
     }
 
 
@@ -52,11 +77,18 @@ const MenuButton = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: white;
-  font-size: 24px;
+  color: grey;
+  font-size: 3rem; /* Tamaño del ícono */
+  
+  
+
 
   @media (max-width: 768px) {
-    display: block;
+    display: flex;
+   padding: 4px;
+    border-radius: 15px; /* Agrega el border-radius para el menú en móvil */
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para más estilo */
+    
 
 
    

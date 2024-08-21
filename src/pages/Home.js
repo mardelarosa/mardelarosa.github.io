@@ -27,15 +27,21 @@ const Container = styled.div`
      <p>https://www.facebook.com/watch/?v=473274998682334</p>*/
 
 const WelcomeContainer = styled.div`
-  text-align: center;
-  padding: 20px 0;
-  font-size: 24px;
-  z-index: 1000; 
+text-align: center;
+padding: 20px 0;
+font-size: 24px;
+z-index: 1000; 
 
-  h1 {
-    font-size: 2rem; 
+h1 {
+  font-size: 2rem; 
 
-  }
+}
+@media (max-width: 768px) {
+  flex-direction: column;
+  margin-left: 0;
+  
+
+}
 
 `;
 
@@ -62,6 +68,13 @@ display: block;
 margin: 0 auto; 
 padding: 1rem;
 border-radius: 8px; /* Opcional: Redondear los bordes de las imágenes */
+
+
+@media (max-width: 768px) {
+  flex-direction: column;
+  margin-left: 0;
+  height: 10rem; 
+}
 
 `;
 
