@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+/*import { BrowserRouter, Routes, Route } from "react-router-dom";*/
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import About from "./pages/About";
@@ -13,7 +14,7 @@ import Soon from "./pages/Soon";
 function AppRouter() {
     return (
 
-        <BrowserRouter>
+        <Router>
     
         <MainMenu/>
 
@@ -27,7 +28,7 @@ function AppRouter() {
             <Route path="/contact" element={<Contact />} />
             </Routes>
             
-        </BrowserRouter>
+        </Router>
 
     )
 
