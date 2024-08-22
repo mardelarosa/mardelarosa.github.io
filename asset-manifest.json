@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mardelarosa.github.io/static/css/main.88f3e52d.css",
-    "main.js": "/mardelarosa.github.io/static/js/main.1d4db808.js",
+    "main.js": "/mardelarosa.github.io/static/js/main.8e29f8c8.js",
     "static/js/787.ae2e2e2b.chunk.js": "/mardelarosa.github.io/static/js/787.ae2e2e2b.chunk.js",
     "static/media/tv3-clucky-york.png": "/mardelarosa.github.io/static/media/tv3-clucky-york.570f055022a4d9010987.png",
     "static/media/about-me-pic.jpeg": "/mardelarosa.github.io/static/media/about-me-pic.98752e06dd43a2f35a5b.jpeg",
@@ -35,11 +35,11 @@
     "static/media/slick.woff": "/mardelarosa.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mardelarosa.github.io/index.html",
     "main.88f3e52d.css.map": "/mardelarosa.github.io/static/css/main.88f3e52d.css.map",
-    "main.1d4db808.js.map": "/mardelarosa.github.io/static/js/main.1d4db808.js.map",
+    "main.8e29f8c8.js.map": "/mardelarosa.github.io/static/js/main.8e29f8c8.js.map",
     "787.ae2e2e2b.chunk.js.map": "/mardelarosa.github.io/static/js/787.ae2e2e2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88f3e52d.css",
-    "static/js/main.1d4db808.js"
+    "static/js/main.8e29f8c8.js"
   ]
 }
