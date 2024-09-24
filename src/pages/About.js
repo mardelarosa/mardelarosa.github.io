@@ -60,7 +60,7 @@ function About() {
                     
                    <br></br>
 
-                    <p>Author of "Mysteri in Pluma York," 2024, Babulinka Books.</p>
+                    <p>Author of "The Clucky York Mystery," 2024, Babulinka Books.</p>
 
 <p>Co-author of "The Chickentown Mystery," 2021, Crackboom Books.</p>
 <br></br>
